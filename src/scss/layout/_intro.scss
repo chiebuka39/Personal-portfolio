@@ -1,0 +1,14 @@
+.introduction{
+    height: 70vh;
+    background: linear-gradient(to bottom, $primary-color 0%,$primary-color-light 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    p{
+        width: 45vw;
+        text-align: center;
+    }
+}

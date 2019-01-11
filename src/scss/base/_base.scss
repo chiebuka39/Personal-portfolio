@@ -1,0 +1,42 @@
+
+
+$font-primary: 'Lato', sans-serif;
+$background: #f5f6fa;
+$primary-color: #8c12b7;
+$primary-color-light: #b31beb;
+$text: #9c9c9c;
+$input-bg-color: #fff;
+$input-text-color: #a3a3a3;
+$button-bg-color: #d9dadf;
+$button-text-color: #fff;
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+
+.container {
+	background-image: url("../images/bg.svg");
+	background-size: cover;
+	min-height: 100vh;
+	
+}
+
+body{
+	font-family: $font-primary;
+}
+
+@include media( '<=large' ) {
+	html{
+		font-size: 55%;
+	}
+	
+}
+
